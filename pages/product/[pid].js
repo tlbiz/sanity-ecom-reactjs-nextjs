@@ -6,7 +6,7 @@ import BlockContent from '@sanity/block-content-to-react'
 import sanityClient from '../../lib/sanity'
 import imageUrlBuilder from '@sanity/image-url'
 import Sidebar from '../../components/Sidebar';
-import styles from './styles'
+import styles from '../../components/styles/details';
 
 const imageBuilder = imageUrlBuilder(sanityClient)
 
@@ -104,7 +104,7 @@ export default class ProductDetail extends React.Component {
                   </div>
                   <div>
                     Price: <strong>
-                      {variant.price}
+                      ${variant.price}
                     </strong>
                   </div>
                   <div>
