@@ -18,7 +18,7 @@
     "@sanity/block-content-to-react": "^2.0.6",
     "@sanity/client": "^0.141.6",
     "@sanity/image-url": "^0.140.12",
-    "next": "^9.0.2",
+    "next": "^11.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-jsx": "^3.2.1"
